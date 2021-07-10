@@ -1,0 +1,11 @@
+string=input ()
+if string.isupper():
+  print('true')
+elif string.islower():
+  print('true')
+elif (string[0].isupper() and string [1:]. islower ()):
+  print('true')
+else:
+  print('false')
+    
+        
